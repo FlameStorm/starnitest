@@ -1,0 +1,23 @@
+{
+    "name": "flamestorm/starnitest",
+    "type": "project",
+    "homepage": "https://github.com/flamestorm/starnitest",
+    "description": "StarniGames test project about PHP, blockchain and websockets",
+    "keywords": ["PHP", "blockchain", "websocket", "StarniGames"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolay Kalinin",
+            "email": "the.fs.iam@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+		"php": ">=7.0.0",
+        "workerman/phpsocket.io": "^1.1",
+        "ratchet/pawl": "^0.3.4"
+    },
+    "autoload": {
+        "psr-0": {"App": ""}
+    }
+}
